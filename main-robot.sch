@@ -11609,6 +11609,193 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Teensy_libSG">
+<packages>
+<package name="TEENSY_3.5_DIL">
+<pad name="GND" x="-7.62" y="29.21" drill="0.9652"/>
+<pad name="0" x="-7.62" y="26.67" drill="0.9652"/>
+<pad name="1" x="-7.62" y="24.13" drill="0.9652"/>
+<pad name="2" x="-7.62" y="21.59" drill="0.9652"/>
+<pad name="3" x="-7.62" y="19.05" drill="0.9652"/>
+<pad name="4" x="-7.62" y="16.51" drill="0.9652"/>
+<pad name="5" x="-7.62" y="13.97" drill="0.9652"/>
+<pad name="6" x="-7.62" y="11.43" drill="0.9652"/>
+<pad name="7" x="-7.62" y="8.89" drill="0.9652"/>
+<pad name="8" x="-7.62" y="6.35" drill="0.9652"/>
+<pad name="9" x="-7.62" y="3.81" drill="0.9652"/>
+<pad name="10" x="-7.62" y="1.27" drill="0.9652"/>
+<pad name="11" x="-7.62" y="-1.27" drill="0.9652"/>
+<pad name="12" x="-7.62" y="-3.81" drill="0.9652"/>
+<pad name="24" x="-7.62" y="-8.89" drill="0.9652"/>
+<pad name="25" x="-7.62" y="-11.43" drill="0.9652"/>
+<pad name="26" x="-7.62" y="-13.97" drill="0.9652"/>
+<pad name="27" x="-7.62" y="-16.51" drill="0.9652"/>
+<pad name="13" x="7.62" y="-3.81" drill="0.9652"/>
+<pad name="14/A0" x="7.62" y="-1.27" drill="0.9652"/>
+<pad name="15/A1" x="7.62" y="1.27" drill="0.9652"/>
+<pad name="16/A2" x="7.62" y="3.81" drill="0.9652"/>
+<pad name="17/A3" x="7.62" y="6.35" drill="0.9652"/>
+<pad name="18/A4" x="7.62" y="8.89" drill="0.9652"/>
+<pad name="19/A5" x="7.62" y="11.43" drill="0.9652"/>
+<pad name="20/A6" x="7.62" y="13.97" drill="0.9652"/>
+<pad name="21/A7" x="7.62" y="16.51" drill="0.9652"/>
+<pad name="22/A8" x="7.62" y="19.05" drill="0.9652"/>
+<pad name="23/A9" x="7.62" y="21.59" drill="0.9652"/>
+<pad name="3.3V" x="7.62" y="24.13" drill="0.9652"/>
+<pad name="AGND" x="7.62" y="26.67" drill="0.9652"/>
+<pad name="VIN" x="7.62" y="29.21" drill="0.9652"/>
+<wire x1="-8.89" y1="30.48" x2="8.89" y2="30.48" width="0.127" layer="51"/>
+<wire x1="8.89" y1="30.48" x2="8.89" y2="-30.48" width="0.127" layer="51"/>
+<wire x1="8.89" y1="-30.48" x2="-8.89" y2="-30.48" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-30.48" x2="-8.89" y2="30.48" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="31.75" x2="3.81" y2="31.75" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="31.75" x2="3.81" y2="30.48" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="30.48" x2="8.89" y2="30.48" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="30.48" x2="8.89" y2="-30.48" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-30.48" x2="-8.89" y2="-30.48" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-30.48" x2="-8.89" y2="30.48" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="30.48" x2="-3.81" y2="30.48" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="30.48" x2="-3.81" y2="31.75" width="0.2032" layer="21"/>
+<text x="-2.54" y="32.385" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<pad name="3.3V3" x="-7.62" y="-6.35" drill="0.9652"/>
+<pad name="38/A19" x="7.62" y="-16.51" drill="0.9652"/>
+<pad name="39/A20" x="7.62" y="-13.97" drill="0.9652"/>
+<pad name="A21" x="7.62" y="-11.43" drill="0.9652"/>
+<pad name="A22" x="7.62" y="-8.89" drill="0.9652"/>
+<pad name="GND1" x="7.62" y="-6.35" drill="0.9652"/>
+<pad name="28" x="-7.62" y="-19.05" drill="0.9652"/>
+<pad name="29" x="-7.62" y="-21.59" drill="0.9652"/>
+<pad name="30" x="-7.62" y="-24.13" drill="0.9652"/>
+<pad name="31/A12" x="-7.62" y="-26.67" drill="0.9652"/>
+<pad name="32/A13" x="-7.62" y="-29.21" drill="0.9652"/>
+<pad name="33/A14" x="7.62" y="-29.21" drill="0.9652"/>
+<pad name="37/A18" x="7.62" y="-19.05" drill="0.9652"/>
+<pad name="36/A17" x="7.62" y="-21.59" drill="0.9652"/>
+<pad name="35/A16" x="7.62" y="-24.13" drill="0.9652"/>
+<pad name="34/A15" x="7.62" y="-26.67" drill="0.9652"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TEENSY_3.5_DIL">
+<wire x1="-20.32" y1="-53.34" x2="20.32" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-53.34" x2="20.32" y2="53.34" width="0.254" layer="94"/>
+<wire x1="20.32" y1="53.34" x2="-20.32" y2="53.34" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="53.34" x2="-20.32" y2="-53.34" width="0.254" layer="94"/>
+<pin name="12/MISO0" x="-25.4" y="20.32" visible="pin" length="middle"/>
+<pin name="11/MOSI0" x="-25.4" y="22.86" visible="pin" length="middle"/>
+<pin name="10/TX2/PWM" x="-25.4" y="25.4" visible="pin" length="middle"/>
+<pin name="9/RX2/PWM" x="-25.4" y="27.94" visible="pin" length="middle"/>
+<pin name="8/TX3/PWM" x="-25.4" y="30.48" visible="pin" length="middle"/>
+<pin name="7/RX3/PWM" x="-25.4" y="33.02" visible="pin" length="middle"/>
+<pin name="6/PWM" x="-25.4" y="35.56" visible="pin" length="middle"/>
+<pin name="5/PWM" x="-25.4" y="38.1" visible="pin" length="middle"/>
+<pin name="4/CAN0-RX/SDA2/PWM" x="-25.4" y="40.64" visible="pin" length="middle"/>
+<pin name="3/CAN0-TX/SCL2/PWM" x="-25.4" y="43.18" visible="pin" length="middle"/>
+<pin name="2/PWM" x="-25.4" y="45.72" visible="pin" length="middle"/>
+<pin name="1/TX1/MISO1" x="-25.4" y="48.26" visible="pin" length="middle"/>
+<pin name="0/RX1/MOSI1" x="-25.4" y="50.8" visible="pin" length="middle"/>
+<pin name="GND" x="25.4" y="40.64" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN" x="25.4" y="48.26" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="AGND" x="25.4" y="17.78" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="3.3V" x="25.4" y="45.72" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="23/A9/PWM" x="-25.4" y="-7.62" visible="pin" length="middle"/>
+<pin name="22/A8/PWM" x="-25.4" y="-5.08" visible="pin" length="middle"/>
+<pin name="21/A7/PWM" x="-25.4" y="-2.54" visible="pin" length="middle"/>
+<pin name="20/A6/PWM" x="-25.4" y="0" visible="pin" length="middle"/>
+<pin name="19/A5/SCL0" x="-25.4" y="2.54" visible="pin" length="middle"/>
+<pin name="18/A4/SDA0" x="-25.4" y="5.08" visible="pin" length="middle"/>
+<pin name="17/A3/PWM" x="-25.4" y="7.62" visible="pin" length="middle"/>
+<pin name="16/A2" x="-25.4" y="10.16" visible="pin" length="middle"/>
+<pin name="15/A1" x="-25.4" y="12.7" visible="pin" length="middle"/>
+<pin name="14/A0/PWM" x="-25.4" y="15.24" visible="pin" length="middle"/>
+<pin name="13/SCK0/LED" x="-25.4" y="17.78" visible="pin" length="middle"/>
+<text x="-5.588" y="54.61" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.794" y="-55.88" size="1.27" layer="96" font="vector" ratio="15">&gt;VALUE</text>
+<pin name="24" x="-25.4" y="-10.16" visible="pin" length="middle"/>
+<pin name="25" x="-25.4" y="-12.7" visible="pin" length="middle"/>
+<pin name="26" x="-25.4" y="-15.24" visible="pin" length="middle"/>
+<pin name="27" x="-25.4" y="-17.78" visible="pin" length="middle"/>
+<pin name="28" x="-25.4" y="-20.32" visible="pin" length="middle"/>
+<pin name="29/PWM" x="-25.4" y="-22.86" visible="pin" length="middle"/>
+<pin name="30/PWM" x="-25.4" y="-25.4" visible="pin" length="middle"/>
+<pin name="31/A12/RX4" x="-25.4" y="-27.94" visible="pin" length="middle"/>
+<pin name="32/A13/TX4/SCK1" x="-25.4" y="-30.48" visible="pin" length="middle"/>
+<pin name="33/A14/TX5" x="-25.4" y="-33.02" visible="pin" length="middle"/>
+<pin name="A22/DAC1" x="25.4" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="A21/DAC0" x="25.4" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="34/A15/RX5" x="-25.4" y="-35.56" visible="pin" length="middle"/>
+<pin name="35/A16/PWM" x="-25.4" y="-38.1" visible="pin" length="middle"/>
+<pin name="36/A17/PWM" x="-25.4" y="-40.64" visible="pin" length="middle"/>
+<pin name="37/A18/SCL1/PWM" x="-25.4" y="-43.18" visible="pin" length="middle"/>
+<pin name="38/A19/SDA1/PWM" x="-25.4" y="-45.72" visible="pin" length="middle"/>
+<pin name="39/A20" x="-25.4" y="-48.26" visible="pin" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TEENSY_3.5_DIL">
+<description>DIL version of the Teensy 3.5</description>
+<gates>
+<gate name="G$1" symbol="TEENSY_3.5_DIL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY_3.5_DIL">
+<connects>
+<connect gate="G$1" pin="0/RX1/MOSI1" pad="0"/>
+<connect gate="G$1" pin="1/TX1/MISO1" pad="1"/>
+<connect gate="G$1" pin="10/TX2/PWM" pad="10"/>
+<connect gate="G$1" pin="11/MOSI0" pad="11"/>
+<connect gate="G$1" pin="12/MISO0" pad="12"/>
+<connect gate="G$1" pin="13/SCK0/LED" pad="13"/>
+<connect gate="G$1" pin="14/A0/PWM" pad="14/A0"/>
+<connect gate="G$1" pin="15/A1" pad="15/A1"/>
+<connect gate="G$1" pin="16/A2" pad="16/A2"/>
+<connect gate="G$1" pin="17/A3/PWM" pad="17/A3"/>
+<connect gate="G$1" pin="18/A4/SDA0" pad="18/A4"/>
+<connect gate="G$1" pin="19/A5/SCL0" pad="19/A5"/>
+<connect gate="G$1" pin="2/PWM" pad="2"/>
+<connect gate="G$1" pin="20/A6/PWM" pad="20/A6"/>
+<connect gate="G$1" pin="21/A7/PWM" pad="21/A7"/>
+<connect gate="G$1" pin="22/A8/PWM" pad="22/A8"/>
+<connect gate="G$1" pin="23/A9/PWM" pad="23/A9"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29/PWM" pad="29"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V 3.3V3"/>
+<connect gate="G$1" pin="3/CAN0-TX/SCL2/PWM" pad="3"/>
+<connect gate="G$1" pin="30/PWM" pad="30"/>
+<connect gate="G$1" pin="31/A12/RX4" pad="31/A12"/>
+<connect gate="G$1" pin="32/A13/TX4/SCK1" pad="32/A13"/>
+<connect gate="G$1" pin="33/A14/TX5" pad="33/A14"/>
+<connect gate="G$1" pin="34/A15/RX5" pad="34/A15"/>
+<connect gate="G$1" pin="35/A16/PWM" pad="35/A16"/>
+<connect gate="G$1" pin="36/A17/PWM" pad="36/A17"/>
+<connect gate="G$1" pin="37/A18/SCL1/PWM" pad="37/A18"/>
+<connect gate="G$1" pin="38/A19/SDA1/PWM" pad="38/A19"/>
+<connect gate="G$1" pin="39/A20" pad="39/A20"/>
+<connect gate="G$1" pin="4/CAN0-RX/SDA2/PWM" pad="4"/>
+<connect gate="G$1" pin="5/PWM" pad="5"/>
+<connect gate="G$1" pin="6/PWM" pad="6"/>
+<connect gate="G$1" pin="7/RX3/PWM" pad="7"/>
+<connect gate="G$1" pin="8/TX3/PWM" pad="8"/>
+<connect gate="G$1" pin="9/RX2/PWM" pad="9"/>
+<connect gate="G$1" pin="A21/DAC0" pad="A21"/>
+<connect gate="G$1" pin="A22/DAC1" pad="A22"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="GND" pad="GND GND1"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11646,6 +11833,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U1" library="Teensy_libSG" deviceset="TEENSY_3.5_DIL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11728,6 +11916,10 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </instance>
 <instance part="GND5" gate="1" x="93.98" y="134.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="96.52" y="132.08" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="U1" gate="G$1" x="43.18" y="68.58" smashed="yes">
+<attribute name="NAME" x="37.592" y="123.19" size="1.27" layer="95" font="vector" ratio="15"/>
+<attribute name="VALUE" x="40.386" y="12.7" size="1.27" layer="96" font="vector" ratio="15"/>
 </instance>
 </instances>
 <busses>
