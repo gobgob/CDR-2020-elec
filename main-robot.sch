@@ -18123,7 +18123,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="PUSH-BUTTON" urn="urn:adsk.eagle:package:16671112/1" type="box" library_version="4">
+<package3d name="PUSH-BUTTON" urn="urn:adsk.eagle:package:16671112/2" type="model" library_version="6">
 <packageinstances>
 <packageinstance name="PUSH-BUTTON"/>
 </packageinstances>
@@ -18149,7 +18149,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PUSH-BUTTON" urn="urn:adsk.eagle:component:16671113/3" prefix="SW" library_version="5">
+<deviceset name="PUSH-BUTTON" urn="urn:adsk.eagle:component:16671113/4" prefix="SW" library_version="6">
 <gates>
 <gate name="G$1" symbol="SWITCH" x="0" y="0"/>
 </gates>
@@ -18160,7 +18160,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="P$2" pad="3 4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16671112/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16671112/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -21103,12 +21103,12 @@ Solder type</description>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW3" library="push-button" library_urn="urn:adsk.eagle:library:16671109" deviceset="PUSH-BUTTON" device="" package3d_urn="urn:adsk.eagle:package:16671112/1" value="PUSH-BUTTON"/>
+<part name="SW3" library="push-button" library_urn="urn:adsk.eagle:library:16671109" deviceset="PUSH-BUTTON" device="" package3d_urn="urn:adsk.eagle:package:16671112/2" value="PUSH-BUTTON"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW4" library="push-button" library_urn="urn:adsk.eagle:library:16671109" deviceset="PUSH-BUTTON" device="" package3d_urn="urn:adsk.eagle:package:16671112/1" value="PUSH-BUTTON"/>
+<part name="SW4" library="push-button" library_urn="urn:adsk.eagle:library:16671109" deviceset="PUSH-BUTTON" device="" package3d_urn="urn:adsk.eagle:package:16671112/2" value="PUSH-BUTTON"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
