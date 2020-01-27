@@ -21889,26 +21889,19 @@ Solder type</description>
 </net>
 <net name="FLAG_INA" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="23/A9/PWM"/>
-<wire x1="177.8" y1="91.44" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
-<label x="175.26" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="FLAG_INB" class="0">
-<segment>
 <pinref part="U1" gate="G$1" pin="22/A8/PWM"/>
 <wire x1="177.8" y1="93.98" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
 <label x="175.26" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="FLAG_PWM" class="0">
+<net name="FLAG_INB" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="21/A7/PWM"/>
 <wire x1="177.8" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
 <label x="175.26" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="FLAG_SEL" class="0">
+<net name="FLAG_PWM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="20/A6/PWM"/>
 <wire x1="177.8" y1="99.06" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
@@ -22142,6 +22135,13 @@ Solder type</description>
 <pinref part="U1" gate="G$1" pin="32/A13/TX4/SCK1"/>
 <wire x1="177.8" y1="68.58" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
 <label x="175.26" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="FLAG_SEL" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="23/A9/PWM"/>
+<wire x1="177.8" y1="91.44" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
+<label x="175.26" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
