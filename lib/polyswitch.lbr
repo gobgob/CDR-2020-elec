@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -132,6 +132,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/13482.pdf"&gt;Data sheet&l
 <description>PolySwitch (TM) Resettable Device
 SMD Series Size: 7555 (mm), 2920 (mils)
 Source: Data sheet</description>
+<packageinstances>
+<packageinstance name="SMD050F"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -223,7 +226,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/13482.pdf"&gt;Data sheet&l
 </device>
 </devices>
 </deviceset>
-<deviceset name="RGEF800">
+<deviceset name="RGEF800" prefix="F">
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -259,7 +262,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/13482.pdf"&gt;Data sheet&l
 </device>
 </devices>
 </deviceset>
-<deviceset name="MF-MSMF110">
+<deviceset name="MF-MSMF110" prefix="F">
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>

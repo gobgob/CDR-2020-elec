@@ -5,7 +5,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -72,7 +72,261 @@
 </layers>
 <library>
 <packages>
-<package name="BM15B-GHS" urn="urn:adsk.eagle:footprint:9659436/2">
+<package name="BM12B-GHS" urn="urn:adsk.eagle:footprint:9659437/3">
+<smd name="12" x="-6.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="11" x="-5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="8.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-8.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="10" x="-4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="6.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-9.375" y1="-1.95" x2="-8.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="-1.95" x2="8.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="8.125" y1="-1.95" x2="9.375" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="9.375" y1="-1.95" x2="9.375" y2="2.5" width="0.127" layer="21"/>
+<wire x1="9.375" y1="2.5" x2="-9.375" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-9.375" y1="2.5" x2="-9.375" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="-1.95" x2="-8.125" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="-1.25" x2="8.125" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="8.125" y1="-1.25" x2="8.125" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="SM12B-GHS" urn="urn:adsk.eagle:footprint:9659428/2">
+<smd name="1" x="-6.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="8.725" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-8.725" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="-4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="10" x="4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="11" x="5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="12" x="6.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-9.375" y1="-2.25" x2="-8.125" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="-2.25" x2="8.125" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="8.125" y1="-2.25" x2="9.375" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="9.375" y1="-2.25" x2="9.375" y2="2.2" width="0.127" layer="21"/>
+<wire x1="9.375" y1="2.2" x2="-9.375" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-9.375" y1="2.2" x2="-9.375" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="-2.25" x2="-8.125" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="-1.55" x2="8.125" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="8.125" y1="-1.55" x2="8.125" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="BM05B-GHS" urn="urn:adsk.eagle:footprint:9659441/3">
+<smd name="5" x="-2.5" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="4.35" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-4.35" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="0" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="2.5" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-5" y1="-1.95" x2="-3.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-1.95" x2="3.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-1.95" x2="5" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="5" y1="-1.95" x2="5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="5" y1="2.5" x2="-5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="2.5" x2="-5" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-1.95" x2="-3.75" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-1.25" x2="3.75" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-1.25" x2="3.75" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="BM03B-GHS" urn="urn:adsk.eagle:footprint:9659443/3">
+<smd name="3" x="-1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="3.1" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-3.1" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-3.75" y1="-1.95" x2="-2.5" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.95" x2="2.5" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.95" x2="3.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-1.95" x2="3.75" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.75" y1="2.5" x2="-3.75" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="2.5" x2="-3.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.95" x2="-2.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.25" x2="2.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.25" x2="2.5" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="BM06B-GHS" urn="urn:adsk.eagle:footprint:9659440/3">
+<smd name="6" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="4.975" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-4.975" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-5.625" y1="-1.95" x2="-4.375" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-4.375" y1="-1.95" x2="4.375" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="4.375" y1="-1.95" x2="5.625" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="5.625" y1="-1.95" x2="5.625" y2="2.5" width="0.127" layer="21"/>
+<wire x1="5.625" y1="2.5" x2="-5.625" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="2.5" x2="-5.625" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-4.375" y1="-1.95" x2="-4.375" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-4.375" y1="-1.25" x2="4.375" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="4.375" y1="-1.25" x2="4.375" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="BM10B-GHS" urn="urn:adsk.eagle:footprint:9659438/3">
+<smd name="10" x="-5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="-4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="7.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-7.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="8" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-8.125" y1="-1.95" x2="-6.875" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="-1.95" x2="6.875" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="6.875" y1="-1.95" x2="8.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="8.125" y1="-1.95" x2="8.125" y2="2.5" width="0.127" layer="21"/>
+<wire x1="8.125" y1="2.5" x2="-8.125" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="2.5" x2="-8.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="-1.95" x2="-6.875" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="-1.25" x2="6.875" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="6.875" y1="-1.25" x2="6.875" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="BM04B-GHS" urn="urn:adsk.eagle:footprint:9659442/3">
+<smd name="4" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="3.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-3.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-4.375" y1="-1.95" x2="-3.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="-1.95" x2="3.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="3.125" y1="-1.95" x2="4.375" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="4.375" y1="-1.95" x2="4.375" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4.375" y1="2.5" x2="-4.375" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-4.375" y1="2.5" x2="-4.375" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="-1.95" x2="-3.125" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="-1.25" x2="3.125" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="3.125" y1="-1.25" x2="3.125" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="SM03B-GHS" urn="urn:adsk.eagle:footprint:9659433/2">
+<smd name="1" x="-1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="3.1" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-3.1" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-3.75" y1="-2.25" x2="-2.5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.25" x2="2.5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.25" x2="3.75" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-2.25" x2="3.75" y2="2.2" width="0.127" layer="21"/>
+<wire x1="3.75" y1="2.2" x2="-3.75" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="2.2" x2="-3.75" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.25" x2="-2.5" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.55" x2="2.5" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.55" x2="2.5" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="SM10B-GHS" urn="urn:adsk.eagle:footprint:9659429/2">
+<smd name="1" x="-5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="7.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-7.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="-3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="10" x="5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-8.125" y1="-2.25" x2="-6.875" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="-2.25" x2="6.875" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="6.875" y1="-2.25" x2="8.125" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="8.125" y1="-2.25" x2="8.125" y2="2.2" width="0.127" layer="21"/>
+<wire x1="8.125" y1="2.2" x2="-8.125" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="2.2" x2="-8.125" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="-2.25" x2="-6.875" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="-1.55" x2="6.875" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="6.875" y1="-1.55" x2="6.875" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="BM08B-GHS" urn="urn:adsk.eagle:footprint:9659439/3">
+<smd name="8" x="-4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="6.225" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-6.225" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="6" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-6.875" y1="-1.95" x2="-5.625" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="-1.95" x2="5.625" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="5.625" y1="-1.95" x2="6.875" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="6.875" y1="-1.95" x2="6.875" y2="2.5" width="0.127" layer="21"/>
+<wire x1="6.875" y1="2.5" x2="-6.875" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="2.5" x2="-6.875" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="-1.95" x2="-5.625" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="-1.25" x2="5.625" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="5.625" y1="-1.25" x2="5.625" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="SM08B-GHS" urn="urn:adsk.eagle:footprint:9659430/2">
+<smd name="1" x="-4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="6.225" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-6.225" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-6.875" y1="-2.25" x2="-5.625" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="-2.25" x2="5.625" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="5.625" y1="-2.25" x2="6.875" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="6.875" y1="-2.25" x2="6.875" y2="2.2" width="0.127" layer="21"/>
+<wire x1="6.875" y1="2.2" x2="-6.875" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-6.875" y1="2.2" x2="-6.875" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="-2.25" x2="-5.625" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="-1.55" x2="5.625" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="5.625" y1="-1.55" x2="5.625" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="SM05B-GHS" urn="urn:adsk.eagle:footprint:9659434/2">
+<smd name="1" x="-2.5" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="4.35" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-4.35" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="0" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="2.5" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-5" y1="-2.25" x2="-3.75" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-2.25" x2="3.75" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-2.25" x2="5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="5" y1="-2.25" x2="5" y2="2.2" width="0.127" layer="21"/>
+<wire x1="5" y1="2.2" x2="-5" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-5" y1="2.2" x2="-5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-2.25" x2="-3.75" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-1.55" x2="3.75" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-1.55" x2="3.75" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="BM15B-GHS" urn="urn:adsk.eagle:footprint:9659436/3">
 <smd name="15" x="-8.75" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="14" x="-7.5" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="CASE0" x="10.6" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
@@ -99,71 +353,9 @@
 <wire x1="-10" y1="-1.95" x2="-10" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="-10" y1="-1.25" x2="10" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="10" y1="-1.25" x2="10" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
 </package>
-<package name="BM12B-GHS" urn="urn:adsk.eagle:footprint:9659437/2">
-<smd name="12" x="-6.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="11" x="-5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="8.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-8.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="10" x="-4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="9" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="6.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-9.375" y1="-1.95" x2="-8.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="-1.95" x2="8.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="8.125" y1="-1.95" x2="9.375" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="9.375" y1="-1.95" x2="9.375" y2="2.5" width="0.127" layer="21"/>
-<wire x1="9.375" y1="2.5" x2="-9.375" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-9.375" y1="2.5" x2="-9.375" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="-1.95" x2="-8.125" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="-1.25" x2="8.125" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="8.125" y1="-1.25" x2="8.125" y2="-1.95" width="0.127" layer="21"/>
-</package>
-<package name="BM08B-GHS" urn="urn:adsk.eagle:footprint:9659439/2">
-<smd name="8" x="-4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="6.225" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-6.225" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="6" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-6.875" y1="-1.95" x2="-5.625" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-5.625" y1="-1.95" x2="5.625" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="5.625" y1="-1.95" x2="6.875" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-1.95" x2="6.875" y2="2.5" width="0.127" layer="21"/>
-<wire x1="6.875" y1="2.5" x2="-6.875" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="2.5" x2="-6.875" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-5.625" y1="-1.95" x2="-5.625" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-5.625" y1="-1.25" x2="5.625" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="5.625" y1="-1.25" x2="5.625" y2="-1.95" width="0.127" layer="21"/>
-</package>
-<package name="BM04B-GHS" urn="urn:adsk.eagle:footprint:9659442/2">
-<smd name="4" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="3.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-3.725" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-4.375" y1="-1.95" x2="-3.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="-1.95" x2="3.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="3.125" y1="-1.95" x2="4.375" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="4.375" y1="-1.95" x2="4.375" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4.375" y1="2.5" x2="-4.375" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-4.375" y1="2.5" x2="-4.375" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="-1.95" x2="-3.125" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="-1.25" x2="3.125" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="3.125" y1="-1.25" x2="3.125" y2="-1.95" width="0.127" layer="21"/>
-</package>
-<package name="SM15B-GHS" urn="urn:adsk.eagle:footprint:9659427/1">
+<package name="SM15B-GHS" urn="urn:adsk.eagle:footprint:9659427/2">
 <smd name="1" x="-8.75" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="2" x="-7.5" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="CASE0" x="10.6" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
@@ -190,54 +382,9 @@
 <wire x1="-10" y1="-2.25" x2="-10" y2="-1.55" width="0.127" layer="21"/>
 <wire x1="-10" y1="-1.55" x2="10" y2="-1.55" width="0.127" layer="21"/>
 <wire x1="10" y1="-1.55" x2="10" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
 </package>
-<package name="SM08B-GHS" urn="urn:adsk.eagle:footprint:9659430/1">
-<smd name="1" x="-4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="6.225" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-6.225" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-6.875" y1="-2.25" x2="-5.625" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-5.625" y1="-2.25" x2="5.625" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="5.625" y1="-2.25" x2="6.875" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-2.25" x2="6.875" y2="2.2" width="0.127" layer="21"/>
-<wire x1="6.875" y1="2.2" x2="-6.875" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="2.2" x2="-6.875" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-5.625" y1="-2.25" x2="-5.625" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-5.625" y1="-1.55" x2="5.625" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="5.625" y1="-1.55" x2="5.625" y2="-2.25" width="0.127" layer="21"/>
-</package>
-<package name="SM12B-GHS" urn="urn:adsk.eagle:footprint:9659428/1">
-<smd name="1" x="-6.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="8.725" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-8.725" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="-4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="9" x="3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="10" x="4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="11" x="5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="12" x="6.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-9.375" y1="-2.25" x2="-8.125" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="-2.25" x2="8.125" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="8.125" y1="-2.25" x2="9.375" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="9.375" y1="-2.25" x2="9.375" y2="2.2" width="0.127" layer="21"/>
-<wire x1="9.375" y1="2.2" x2="-9.375" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-9.375" y1="2.2" x2="-9.375" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="-2.25" x2="-8.125" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="-1.55" x2="8.125" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="8.125" y1="-1.55" x2="8.125" y2="-2.25" width="0.127" layer="21"/>
-</package>
-<package name="SM04B-GHS" urn="urn:adsk.eagle:footprint:9659435/1">
+<package name="SM04B-GHS" urn="urn:adsk.eagle:footprint:9659435/2">
 <smd name="1" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="2" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="CASE0" x="3.725" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
@@ -253,27 +400,41 @@
 <wire x1="-3.125" y1="-2.25" x2="-3.125" y2="-1.55" width="0.127" layer="21"/>
 <wire x1="-3.125" y1="-1.55" x2="3.125" y2="-1.55" width="0.127" layer="21"/>
 <wire x1="3.125" y1="-1.55" x2="3.125" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
 </package>
-<package name="BM06B-GHS" urn="urn:adsk.eagle:footprint:9659440/2">
-<smd name="6" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="4.975" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-4.975" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="4" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-5.625" y1="-1.95" x2="-4.375" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-4.375" y1="-1.95" x2="4.375" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="4.375" y1="-1.95" x2="5.625" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="5.625" y1="-1.95" x2="5.625" y2="2.5" width="0.127" layer="21"/>
-<wire x1="5.625" y1="2.5" x2="-5.625" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-5.625" y1="2.5" x2="-5.625" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-4.375" y1="-1.95" x2="-4.375" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-4.375" y1="-1.25" x2="4.375" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="4.375" y1="-1.25" x2="4.375" y2="-1.95" width="0.127" layer="21"/>
+<package name="BM02B-GHS" urn="urn:adsk.eagle:footprint:9659444/3">
+<smd name="2" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="2.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-2.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
+<wire x1="-3.125" y1="-1.95" x2="-1.875" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-1.95" x2="1.875" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="1.875" y1="-1.95" x2="3.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="3.125" y1="-1.95" x2="3.125" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.125" y1="2.5" x2="-3.125" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="2.5" x2="-3.125" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-1.95" x2="-1.875" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-1.25" x2="1.875" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.875" y1="-1.25" x2="1.875" y2="-1.95" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
 </package>
-<package name="SM06B-GHS" urn="urn:adsk.eagle:footprint:9659431/1">
+<package name="SM02B-GHS" urn="urn:adsk.eagle:footprint:9659432/2">
+<smd name="1" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="CASE0" x="2.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<smd name="CASE1" x="-2.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
+<wire x1="-3.125" y1="-2.25" x2="-1.875" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-2.25" x2="1.875" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="1.875" y1="-2.25" x2="3.125" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="3.125" y1="-2.25" x2="3.125" y2="2.2" width="0.127" layer="21"/>
+<wire x1="3.125" y1="2.2" x2="-3.125" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="2.2" x2="-3.125" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-2.25" x2="-1.875" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-1.55" x2="1.875" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.875" y1="-1.55" x2="1.875" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+</package>
+<package name="SM06B-GHS" urn="urn:adsk.eagle:footprint:9659431/2">
 <smd name="1" x="-3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="2" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
 <smd name="CASE0" x="4.975" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
@@ -291,245 +452,184 @@
 <wire x1="-4.375" y1="-2.25" x2="-4.375" y2="-1.55" width="0.127" layer="21"/>
 <wire x1="-4.375" y1="-1.55" x2="4.375" y2="-1.55" width="0.127" layer="21"/>
 <wire x1="4.375" y1="-1.55" x2="4.375" y2="-2.25" width="0.127" layer="21"/>
-</package>
-<package name="BM05B-GHS" urn="urn:adsk.eagle:footprint:9659441/2">
-<smd name="5" x="-2.5" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="4.35" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-4.35" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="0" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="2.5" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-5" y1="-1.95" x2="-3.75" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-1.95" x2="3.75" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-1.95" x2="5" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="5" y1="-1.95" x2="5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="5" y1="2.5" x2="-5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="2.5" x2="-5" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-1.95" x2="-3.75" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-1.25" x2="3.75" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-1.25" x2="3.75" y2="-1.95" width="0.127" layer="21"/>
-</package>
-<package name="BM02B-GHS" urn="urn:adsk.eagle:footprint:9659444/2">
-<smd name="2" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="2.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-2.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<wire x1="-3.125" y1="-1.95" x2="-1.875" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-1.875" y1="-1.95" x2="1.875" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="1.875" y1="-1.95" x2="3.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="3.125" y1="-1.95" x2="3.125" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.125" y1="2.5" x2="-3.125" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="2.5" x2="-3.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-1.875" y1="-1.95" x2="-1.875" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-1.875" y1="-1.25" x2="1.875" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="1.875" y1="-1.25" x2="1.875" y2="-1.95" width="0.127" layer="21"/>
-</package>
-<package name="SM05B-GHS" urn="urn:adsk.eagle:footprint:9659434/1">
-<smd name="1" x="-2.5" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="4.35" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-4.35" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="0" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="2.5" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-5" y1="-2.25" x2="-3.75" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-2.25" x2="3.75" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-2.25" x2="5" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="5" y1="-2.25" x2="5" y2="2.2" width="0.127" layer="21"/>
-<wire x1="5" y1="2.2" x2="-5" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-5" y1="2.2" x2="-5" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-2.25" x2="-3.75" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-1.55" x2="3.75" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-1.55" x2="3.75" y2="-2.25" width="0.127" layer="21"/>
-</package>
-<package name="SM02B-GHS" urn="urn:adsk.eagle:footprint:9659432/1">
-<smd name="1" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="2.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-2.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<wire x1="-3.125" y1="-2.25" x2="-1.875" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-1.875" y1="-2.25" x2="1.875" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="1.875" y1="-2.25" x2="3.125" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="3.125" y1="-2.25" x2="3.125" y2="2.2" width="0.127" layer="21"/>
-<wire x1="3.125" y1="2.2" x2="-3.125" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="2.2" x2="-3.125" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-1.875" y1="-2.25" x2="-1.875" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-1.875" y1="-1.55" x2="1.875" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="1.875" y1="-1.55" x2="1.875" y2="-2.25" width="0.127" layer="21"/>
-</package>
-<package name="BM03B-GHS" urn="urn:adsk.eagle:footprint:9659443/2">
-<smd name="3" x="-1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="3.1" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-3.1" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="1" x="1.25" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-3.75" y1="-1.95" x2="-2.5" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.95" x2="2.5" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.95" x2="3.75" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-1.95" x2="3.75" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.75" y1="2.5" x2="-3.75" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="2.5" x2="-3.75" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.95" x2="-2.5" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.25" x2="2.5" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.25" x2="2.5" y2="-1.95" width="0.127" layer="21"/>
-</package>
-<package name="BM10B-GHS" urn="urn:adsk.eagle:footprint:9659438/2">
-<smd name="10" x="-5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="9" x="-4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="7.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-7.475" y="-0.85" dx="2.8" dy="1" layer="1" rot="R90"/>
-<smd name="8" x="-3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="-1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="-0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="0.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="1.875" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="3.125" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="4.375" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="5.625" y="2.5" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-8.125" y1="-1.95" x2="-6.875" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="-1.95" x2="6.875" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-1.95" x2="8.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="8.125" y1="-1.95" x2="8.125" y2="2.5" width="0.127" layer="21"/>
-<wire x1="8.125" y1="2.5" x2="-8.125" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="2.5" x2="-8.125" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="-1.95" x2="-6.875" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="-1.25" x2="6.875" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-1.25" x2="6.875" y2="-1.95" width="0.127" layer="21"/>
-</package>
-<package name="SM03B-GHS" urn="urn:adsk.eagle:footprint:9659433/1">
-<smd name="1" x="-1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="3.1" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-3.1" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="1.25" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-3.75" y1="-2.25" x2="-2.5" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.25" x2="2.5" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.25" x2="3.75" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-2.25" x2="3.75" y2="2.2" width="0.127" layer="21"/>
-<wire x1="3.75" y1="2.2" x2="-3.75" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="2.2" x2="-3.75" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.25" x2="-2.5" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.55" x2="2.5" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.55" x2="2.5" y2="-2.25" width="0.127" layer="21"/>
-</package>
-<package name="SM10B-GHS" urn="urn:adsk.eagle:footprint:9659429/1">
-<smd name="1" x="-5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="CASE0" x="7.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="CASE1" x="-7.475" y="-1.15" dx="2.7" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="-3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="-0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="0.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="1.875" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="3.125" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="9" x="4.375" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="10" x="5.625" y="2.05" dx="1.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-8.125" y1="-2.25" x2="-6.875" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="-2.25" x2="6.875" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-2.25" x2="8.125" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="8.125" y1="-2.25" x2="8.125" y2="2.2" width="0.127" layer="21"/>
-<wire x1="8.125" y1="2.2" x2="-8.125" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-8.125" y1="2.2" x2="-8.125" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="-2.25" x2="-6.875" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-6.875" y1="-1.55" x2="6.875" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-1.55" x2="6.875" y2="-2.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="BM15B-GHS" urn="urn:adsk.eagle:package:9659463/3" type="model">
-<packageinstances>
-<packageinstance name="BM15B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="BM12B-GHS" urn="urn:adsk.eagle:package:9659464/3" type="model">
-<packageinstances>
-<packageinstance name="BM12B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="SM08B-GHS" urn="urn:adsk.eagle:package:9659457/2" type="model">
-<packageinstances>
-<packageinstance name="SM08B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="SM12B-GHS" urn="urn:adsk.eagle:package:9659455/2" type="model">
+<package3d name="SM12B-GHS" urn="urn:adsk.eagle:package:9659455/3" type="model">
 <packageinstances>
 <packageinstance name="SM12B-GHS"/>
 </packageinstances>
 </package3d>
-<package3d name="BM08B-GHS" urn="urn:adsk.eagle:package:9659466/3" type="model">
+<package3d name="BM12B-GHS" urn="urn:adsk.eagle:package:9659464/4" type="model">
 <packageinstances>
-<packageinstance name="BM08B-GHS"/>
+<packageinstance name="BM12B-GHS"/>
 </packageinstances>
 </package3d>
-<package3d name="BM04B-GHS" urn="urn:adsk.eagle:package:9659469/3" type="model">
-<packageinstances>
-<packageinstance name="BM04B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="SM15B-GHS" urn="urn:adsk.eagle:package:9659454/2" type="model">
-<packageinstances>
-<packageinstance name="SM15B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="SM04B-GHS" urn="urn:adsk.eagle:package:9659462/2" type="model">
-<packageinstances>
-<packageinstance name="SM04B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="SM06B-GHS" urn="urn:adsk.eagle:package:9659458/2" type="model">
-<packageinstances>
-<packageinstance name="SM06B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="BM06B-GHS" urn="urn:adsk.eagle:package:9659467/3" type="model">
-<packageinstances>
-<packageinstance name="BM06B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="BM05B-GHS" urn="urn:adsk.eagle:package:9659468/3" type="model">
-<packageinstances>
-<packageinstance name="BM05B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="SM05B-GHS" urn="urn:adsk.eagle:package:9659461/2" type="model">
+<package3d name="SM05B-GHS" urn="urn:adsk.eagle:package:9659461/3" type="model">
 <packageinstances>
 <packageinstance name="SM05B-GHS"/>
 </packageinstances>
 </package3d>
-<package3d name="BM02B-GHS" urn="urn:adsk.eagle:package:9659471/3" type="model">
+<package3d name="BM05B-GHS" urn="urn:adsk.eagle:package:9659468/4" type="model">
 <packageinstances>
-<packageinstance name="BM02B-GHS"/>
+<packageinstance name="BM05B-GHS"/>
 </packageinstances>
 </package3d>
-<package3d name="SM02B-GHS" urn="urn:adsk.eagle:package:9659459/2" type="model">
+<package3d name="BM06B-GHS" urn="urn:adsk.eagle:package:9659467/4" type="model">
 <packageinstances>
-<packageinstance name="SM02B-GHS"/>
+<packageinstance name="BM06B-GHS"/>
 </packageinstances>
 </package3d>
-<package3d name="BM10B-GHS" urn="urn:adsk.eagle:package:9659465/3" type="model">
-<packageinstances>
-<packageinstance name="BM10B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="SM10B-GHS" urn="urn:adsk.eagle:package:9659456/2" type="model">
-<packageinstances>
-<packageinstance name="SM10B-GHS"/>
-</packageinstances>
-</package3d>
-<package3d name="BM03B-GHS" urn="urn:adsk.eagle:package:9659470/3" type="model">
+<package3d name="BM03B-GHS" urn="urn:adsk.eagle:package:9659470/4" type="model">
 <packageinstances>
 <packageinstance name="BM03B-GHS"/>
 </packageinstances>
 </package3d>
-<package3d name="SM03B-GHS" urn="urn:adsk.eagle:package:9659460/2" type="model">
+<package3d name="SM03B-GHS" urn="urn:adsk.eagle:package:9659460/3" type="model">
 <packageinstances>
 <packageinstance name="SM03B-GHS"/>
 </packageinstances>
 </package3d>
+<package3d name="SM06B-GHS" urn="urn:adsk.eagle:package:9659458/3" type="model">
+<packageinstances>
+<packageinstance name="SM06B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="BM10B-GHS" urn="urn:adsk.eagle:package:9659465/4" type="model">
+<packageinstances>
+<packageinstance name="BM10B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="BM04B-GHS" urn="urn:adsk.eagle:package:9659469/4" type="model">
+<packageinstances>
+<packageinstance name="BM04B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="SM10B-GHS" urn="urn:adsk.eagle:package:9659456/3" type="model">
+<packageinstances>
+<packageinstance name="SM10B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="BM08B-GHS" urn="urn:adsk.eagle:package:9659466/4" type="model">
+<packageinstances>
+<packageinstance name="BM08B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="SM08B-GHS" urn="urn:adsk.eagle:package:9659457/3" type="model">
+<packageinstances>
+<packageinstance name="SM08B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="SM04B-GHS" urn="urn:adsk.eagle:package:9659462/3" type="model">
+<packageinstances>
+<packageinstance name="SM04B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="SM15B-GHS" urn="urn:adsk.eagle:package:9659454/3" type="model">
+<packageinstances>
+<packageinstance name="SM15B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="BM15B-GHS" urn="urn:adsk.eagle:package:9659463/4" type="model">
+<packageinstances>
+<packageinstance name="BM15B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="BM02B-GHS" urn="urn:adsk.eagle:package:9659471/4" type="model">
+<packageinstances>
+<packageinstance name="BM02B-GHS"/>
+</packageinstances>
+</package3d>
+<package3d name="SM02B-GHS" urn="urn:adsk.eagle:package:9659459/3" type="model">
+<packageinstances>
+<packageinstance name="SM02B-GHS"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
+<symbol name="JST-12" urn="urn:adsk.eagle:symbol:9659446/1">
+<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
+<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
+<pin name="6" x="-5.08" y="-12.7" visible="pin" length="short"/>
+<pin name="7" x="-5.08" y="-15.24" visible="pin" length="short"/>
+<pin name="8" x="-5.08" y="-17.78" visible="pin" length="short"/>
+<pin name="9" x="-5.08" y="-20.32" visible="pin" length="short"/>
+<pin name="10" x="-5.08" y="-22.86" visible="pin" length="short"/>
+<pin name="11" x="-5.08" y="-25.4" visible="pin" length="short"/>
+<pin name="12" x="-5.08" y="-27.94" visible="pin" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-30.48" x2="-2.54" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-30.48" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="JST-05" urn="urn:adsk.eagle:symbol:9659450/1">
+<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
+<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="JST-03" urn="urn:adsk.eagle:symbol:9659452/1">
+<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="JST-04" urn="urn:adsk.eagle:symbol:9659451/1">
+<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="JST-10" urn="urn:adsk.eagle:symbol:9659447/1">
+<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
+<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
+<pin name="6" x="-5.08" y="-12.7" visible="pin" length="short"/>
+<pin name="7" x="-5.08" y="-15.24" visible="pin" length="short"/>
+<pin name="8" x="-5.08" y="-17.78" visible="pin" length="short"/>
+<pin name="9" x="-5.08" y="-20.32" visible="pin" length="short"/>
+<pin name="10" x="-5.08" y="-22.86" visible="pin" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-25.4" x2="-2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-25.4" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="JST-06" urn="urn:adsk.eagle:symbol:9659449/1">
+<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
+<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
+<pin name="6" x="-5.08" y="-12.7" visible="pin" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 <symbol name="JST-15" urn="urn:adsk.eagle:symbol:9659445/1">
 <pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
 <pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
@@ -552,48 +652,14 @@
 <wire x1="-2.54" y1="-38.1" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="JST-12" urn="urn:adsk.eagle:symbol:9659446/1">
+<symbol name="JST-02" urn="urn:adsk.eagle:symbol:9659453/1">
 <pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
 <pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
-<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
-<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
-<pin name="6" x="-5.08" y="-12.7" visible="pin" length="short"/>
-<pin name="7" x="-5.08" y="-15.24" visible="pin" length="short"/>
-<pin name="8" x="-5.08" y="-17.78" visible="pin" length="short"/>
-<pin name="9" x="-5.08" y="-20.32" visible="pin" length="short"/>
-<pin name="10" x="-5.08" y="-22.86" visible="pin" length="short"/>
-<pin name="11" x="-5.08" y="-25.4" visible="pin" length="short"/>
-<pin name="12" x="-5.08" y="-27.94" visible="pin" length="short"/>
 <wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-30.48" x2="-2.54" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-30.48" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="JST-06" urn="urn:adsk.eagle:symbol:9659449/1">
-<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
-<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
-<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
-<pin name="6" x="-5.08" y="-12.7" visible="pin" length="short"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="JST-04" urn="urn:adsk.eagle:symbol:9659451/1">
-<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
-<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.794" y="3.048" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="JST-08" urn="urn:adsk.eagle:symbol:9659448/1">
 <pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
@@ -610,82 +676,19 @@
 <wire x1="-2.54" y1="-20.32" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="JST-05" urn="urn:adsk.eagle:symbol:9659450/1">
-<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
-<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
-<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="JST-02" urn="urn:adsk.eagle:symbol:9659453/1">
-<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-2.794" y="3.048" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="JST-10" urn="urn:adsk.eagle:symbol:9659447/1">
-<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
-<pin name="4" x="-5.08" y="-7.62" visible="pin" length="short"/>
-<pin name="5" x="-5.08" y="-10.16" visible="pin" length="short"/>
-<pin name="6" x="-5.08" y="-12.7" visible="pin" length="short"/>
-<pin name="7" x="-5.08" y="-15.24" visible="pin" length="short"/>
-<pin name="8" x="-5.08" y="-17.78" visible="pin" length="short"/>
-<pin name="9" x="-5.08" y="-20.32" visible="pin" length="short"/>
-<pin name="10" x="-5.08" y="-22.86" visible="pin" length="short"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-25.4" x2="-2.54" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-25.4" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="JST-03" urn="urn:adsk.eagle:symbol:9659452/1">
-<pin name="1" x="-5.08" y="0" visible="pin" length="short"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<pin name="3" x="-5.08" y="-5.08" visible="pin" length="short"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.048" y="2.794" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="JST-08" prefix="J" urn="urn:adsk.eagle:component:9659475/3">
+<deviceset name="JST-12" prefix="J" urn="urn:adsk.eagle:component:9659473/5">
 <gates>
-<gate name="G$1" symbol="JST-08" x="0" y="0"/>
+<gate name="G$1" symbol="JST-12" x="0" y="0"/>
 </gates>
 <devices>
-<device name="TOP" package="BM08B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="8"/>
-<connect gate="G$1" pin="2" pad="7"/>
-<connect gate="G$1" pin="3" pad="6"/>
-<connect gate="G$1" pin="4" pad="5"/>
-<connect gate="G$1" pin="5" pad="4"/>
-<connect gate="G$1" pin="6" pad="3"/>
-<connect gate="G$1" pin="7" pad="2"/>
-<connect gate="G$1" pin="8" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659466/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDE" package="SM08B-GHS">
+<device name="TOP" package="BM12B-GHS">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
@@ -693,9 +696,32 @@
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659457/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659464/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDE" package="SM12B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659455/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -703,31 +729,111 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST-15" prefix="J" urn="urn:adsk.eagle:component:9659472/3">
+<deviceset name="JST-10" prefix="J" urn="urn:adsk.eagle:component:9659474/5">
+<gates>
+<gate name="G$1" symbol="JST-10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TOP" package="BM10B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659465/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDE" package="SM10B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659456/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-03" prefix="J" urn="urn:adsk.eagle:component:9659479/5">
+<gates>
+<gate name="G$1" symbol="JST-03" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TOP" package="BM03B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659470/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDE" package="SM03B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659460/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-15" prefix="J" urn="urn:adsk.eagle:component:9659472/5">
 <gates>
 <gate name="G$1" symbol="JST-15" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TOP" package="BM15B-GHS">
 <connects>
-<connect gate="G$1" pin="1" pad="15"/>
-<connect gate="G$1" pin="10" pad="6"/>
-<connect gate="G$1" pin="11" pad="5"/>
-<connect gate="G$1" pin="12" pad="4"/>
-<connect gate="G$1" pin="13" pad="3"/>
-<connect gate="G$1" pin="14" pad="2"/>
-<connect gate="G$1" pin="15" pad="1"/>
-<connect gate="G$1" pin="2" pad="14"/>
-<connect gate="G$1" pin="3" pad="13"/>
-<connect gate="G$1" pin="4" pad="12"/>
-<connect gate="G$1" pin="5" pad="11"/>
-<connect gate="G$1" pin="6" pad="10"/>
-<connect gate="G$1" pin="7" pad="9"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659463/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659463/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -752,7 +858,7 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659454/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -760,71 +866,20 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST-12" prefix="J" urn="urn:adsk.eagle:component:9659473/3">
-<gates>
-<gate name="G$1" symbol="JST-12" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TOP" package="BM12B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="12"/>
-<connect gate="G$1" pin="10" pad="3"/>
-<connect gate="G$1" pin="11" pad="2"/>
-<connect gate="G$1" pin="12" pad="1"/>
-<connect gate="G$1" pin="2" pad="11"/>
-<connect gate="G$1" pin="3" pad="10"/>
-<connect gate="G$1" pin="4" pad="9"/>
-<connect gate="G$1" pin="5" pad="8"/>
-<connect gate="G$1" pin="6" pad="7"/>
-<connect gate="G$1" pin="7" pad="6"/>
-<connect gate="G$1" pin="8" pad="5"/>
-<connect gate="G$1" pin="9" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659464/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDE" package="SM12B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659455/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST-04" prefix="J" urn="urn:adsk.eagle:component:9659478/4">
+<deviceset name="JST-04" prefix="J" urn="urn:adsk.eagle:component:9659478/6">
 <gates>
 <gate name="G$1" symbol="JST-04" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TOP" package="BM04B-GHS">
 <connects>
-<connect gate="G$1" pin="1" pad="4"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="3" pad="2"/>
-<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659469/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659469/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -838,7 +893,7 @@
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659462/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659462/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -846,22 +901,133 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST-06" prefix="J" urn="urn:adsk.eagle:component:9659476/3">
+<deviceset name="JST-05" prefix="J" urn="urn:adsk.eagle:component:9659477/5">
+<gates>
+<gate name="G$1" symbol="JST-05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TOP" package="BM05B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659468/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDE" package="SM05B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659461/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-08" prefix="J" urn="urn:adsk.eagle:component:9659475/5">
+<gates>
+<gate name="G$1" symbol="JST-08" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TOP" package="BM08B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659466/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDE" package="SM08B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659457/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-02" prefix="J" urn="urn:adsk.eagle:component:9659480/5">
+<gates>
+<gate name="G$1" symbol="JST-02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TOP" package="BM02B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659471/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDE" package="SM02B-GHS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659459/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-06" prefix="J" urn="urn:adsk.eagle:component:9659476/5">
 <gates>
 <gate name="G$1" symbol="JST-06" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TOP" package="BM06B-GHS">
 <connects>
-<connect gate="G$1" pin="1" pad="6"/>
-<connect gate="G$1" pin="2" pad="5"/>
-<connect gate="G$1" pin="3" pad="4"/>
-<connect gate="G$1" pin="4" pad="3"/>
-<connect gate="G$1" pin="5" pad="2"/>
-<connect gate="G$1" pin="6" pad="1"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659467/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659467/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -877,155 +1043,7 @@
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659458/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST-05" prefix="J" urn="urn:adsk.eagle:component:9659477/3">
-<gates>
-<gate name="G$1" symbol="JST-05" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TOP" package="BM05B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="5"/>
-<connect gate="G$1" pin="2" pad="4"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="2"/>
-<connect gate="G$1" pin="5" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659468/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDE" package="SM05B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659461/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST-02" prefix="J" urn="urn:adsk.eagle:component:9659480/3">
-<gates>
-<gate name="G$1" symbol="JST-02" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TOP" package="BM02B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659471/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDE" package="SM02B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659459/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST-10" prefix="J" urn="urn:adsk.eagle:component:9659474/3">
-<gates>
-<gate name="G$1" symbol="JST-10" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TOP" package="BM10B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="10"/>
-<connect gate="G$1" pin="10" pad="1"/>
-<connect gate="G$1" pin="2" pad="9"/>
-<connect gate="G$1" pin="3" pad="8"/>
-<connect gate="G$1" pin="4" pad="7"/>
-<connect gate="G$1" pin="5" pad="6"/>
-<connect gate="G$1" pin="6" pad="5"/>
-<connect gate="G$1" pin="7" pad="4"/>
-<connect gate="G$1" pin="8" pad="3"/>
-<connect gate="G$1" pin="9" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659465/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDE" package="SM10B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659456/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST-03" prefix="J" urn="urn:adsk.eagle:component:9659479/3">
-<gates>
-<gate name="G$1" symbol="JST-03" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TOP" package="BM03B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="3"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659470/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDE" package="SM03B-GHS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9659460/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9659458/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
