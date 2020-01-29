@@ -30,10 +30,10 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,17 +46,17 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -78,89 +78,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="110" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="111" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="top_silk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="134" name="Ext_boards" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYjVjZTIy" projecturn="a.cGVyc29uYWw6dWUyYjVjZTIyIzIwMTkwOTI4MjIwMDY0MjI2" f3durn="urn:adsk.wipprod:dm.lineage:Tw-aWBHUQ9-QpGxy24Xodg" pcbguid="a969bc88-2eb4-46df-86c6-0b31fed4e920" lastpulledtime="" lastsyncedchangeguid="5a5d8461-ca6c-1b82-456d-72ecfe42a188"/>
@@ -191,6 +108,10 @@
 <circle x="54.4" y="96.6650625" locked="yes" radius="3" width="0.2" layer="40"/>
 <wire x1="60" y1="63" x2="64.5" y2="63" width="0.2" layer="39" locked="yes"/>
 <wire x1="64.5" y1="63" x2="64.5" y2="98" width="0.2" layer="39" locked="yes"/>
+<text x="33" y="76" size="0.8128" layer="21" rot="R90" align="center-left">EXT_VCC</text>
+<text x="34.7" y="76" size="0.8128" layer="21" rot="R90" align="center-left">+5V</text>
+<text x="31.3" y="76" size="0.8128" layer="21" rot="R90" align="center-left">+12V</text>
+<text x="4.3" y="34.6" size="1.27" layer="21" rot="R90" align="top-center">AR_URG</text>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
@@ -2506,20 +2427,20 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22µF" x="51" y="63.5" smashed="yes" rot="MR180">
-<attribute name="NAME" x="49.095" y="61.595" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="52.005" y="64.605" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="49.095" y="66.675" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22µF" x="50" y="70" smashed="yes" rot="MR180">
-<attribute name="NAME" x="48.095" y="68.095" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="51.105" y="71.205" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="48.095" y="73.175" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="220µF" x="48" y="54.5" smashed="yes">
-<attribute name="NAME" x="51.302" y="57.294" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="52.102" y="53.894" size="1.27" layer="25" ratio="10"/>
 <attribute name="REF_MOUSER" value="667-EEE-FT1C221AP" x="48" y="54.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.714" y="51.452" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="220µF" x="60.5" y="70" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.294" y="66.698" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="64.002" y="69.694" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="57.452" y="72.286" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="D1" library="diode_schottky" package="TO-277A" value="DIODE_S15P45" x="3" y="21" smashed="yes">
@@ -2527,7 +2448,7 @@ design rules under a new name.</description>
 </element>
 <element name="DC2" library="traco-power" library_urn="urn:adsk.eagle:library:16504331" package="TSR1" package3d_urn="urn:adsk.eagle:package:16504336/3" value="TSR 1-2450" x="51" y="68" smashed="yes">
 <attribute name="MANUFACTURER" value="TRACO POWER" x="51" y="68" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45" y="74" size="1.27" layer="25"/>
+<attribute name="NAME" x="44.8" y="66.3" size="1.27" layer="25" rot="R90"/>
 <attribute name="OUTPUT_VOLTAGE" value="5" x="51" y="68" size="1.778" layer="27" display="off"/>
 <attribute name="REF" value="TSR 1-2450" x="51" y="68" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="666-4379" x="70.05" y="43.87" size="1.778" layer="27" display="off"/>
@@ -2535,14 +2456,14 @@ design rules under a new name.</description>
 </element>
 <element name="DC3" library="traco-power" library_urn="urn:adsk.eagle:library:16504331" package="TSR2" package3d_urn="urn:adsk.eagle:package:16504335/3" value="TSR 2-2450" x="52" y="61.5" smashed="yes">
 <attribute name="MANUFACTURER" value="TRACO POWER" x="52" y="61.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45" y="65.7" size="1.27" layer="25"/>
+<attribute name="NAME" x="44.7" y="58.4" size="1.27" layer="25" rot="R90"/>
 <attribute name="OUTPUT_VOLTAGE" value="5" x="52" y="61.5" size="1.778" layer="27" display="off"/>
 <attribute name="REF" value="TSR 2-2450" x="52" y="61.5" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="906-8487" x="83.75" y="37.37" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="59" y="57.5" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="F1" library="polyswitch" package="5MM" value="RGEF800" x="1.7" y="11" smashed="yes" rot="MR270">
-<attribute name="NAME" x="3.224" y="3.38" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="3.324" y="4.98" size="1.27" layer="26" rot="MR90"/>
 <attribute name="RS" value="517-6966" x="53.77" y="-10.59" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" package="FE20-2" package3d_urn="urn:adsk.eagle:package:8184/1" value="RPI" x="25.4" y="47.6650625" locked="yes" smashed="yes">
@@ -2554,22 +2475,20 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="0" y="42.9660625" locked="yes" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LIPO+" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" value="TPPAD1-20Y" x="5" y="2.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.27" y="0.706" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="2.73" y="4.294" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="5" y="2.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="5" y="2.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LIPO-" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" value="TPPAD1-20Y" x="15.5" y="2.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.77" y="0.706" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="13.43" y="4.294" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="15.5" y="2.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="15.5" y="2.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="AR-URG-1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" value="TPPAD1-20Y" x="2.5" y="30" smashed="yes">
-<attribute name="NAME" x="-1.706" y="34.27" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="2.5" y="30" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="2.5" y="30" size="1.778" layer="27" display="off"/>
 </element>
 <element name="AR-URG-2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" value="TPPAD1-20Y" x="2.5" y="39" smashed="yes">
-<attribute name="NAME" x="-1.706" y="43.27" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="2.5" y="39" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="2.5" y="39" size="1.778" layer="27" display="off"/>
 </element>
@@ -2579,68 +2498,66 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.225" y="33.62" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="TOF_ARG" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="BM03B-GHS" package3d_urn="urn:adsk.eagle:package:9659470/4" value="JST-03TOP" x="84" y="3.5" smashed="yes">
-<attribute name="NAME" x="84" y="8.96" size="1.27" layer="25" align="top-center"/>
+<attribute name="NAME" x="84" y="7.34" size="1.27" layer="25" rot="R180" align="top-center"/>
 </element>
 <element name="ENC_G" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="BM04B-GHS" package3d_urn="urn:adsk.eagle:package:9659469/4" value="JST-04TOP" x="94.5" y="3.5" smashed="yes">
-<attribute name="NAME" x="94.5" y="8.96" size="1.27" layer="25" align="top-center"/>
+<attribute name="NAME" x="94.5" y="7.34" size="1.27" layer="25" rot="R180" align="top-center"/>
 </element>
 <element name="EXT_1" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="SM06B-GHS" package3d_urn="urn:adsk.eagle:package:9659458/3" value="JST-06SIDE" x="86" y="3.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="86" y="8.96" size="1.27" layer="26" rot="MR0" align="top-center"/>
+<attribute name="NAME" x="86" y="3.76" size="1.27" layer="26" rot="MR0" align="top-center"/>
 </element>
 <element name="CON1" library="con-molex-dynamixel" library_urn="urn:adsk.eagle:library:16504158" package="5267-03A" package3d_urn="urn:adsk.eagle:package:16503608/4" value="AX12" x="14.1" y="40" smashed="yes">
 <attribute name="MANUFACTURER" value="Molex" x="14.1" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.02" y="42.54" size="1.778" layer="25"/>
 <attribute name="REF" value="5267-03A" x="14.1" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="REF-STD" value="22-03-5035" x="14.1" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="REF-SW" value="99-99-0987" x="14.1" y="40" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EXT_2" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="BM06B-GHS" package3d_urn="urn:adsk.eagle:package:9659467/4" value="JST-06TOP" x="11" y="11" smashed="yes">
-<attribute name="NAME" x="11" y="16.46" size="1.27" layer="25" align="top-center"/>
+<attribute name="NAME" x="11" y="8.76" size="1.27" layer="25" align="top-center"/>
 </element>
 <element name="ENC_D" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="BM04B-GHS" package3d_urn="urn:adsk.eagle:package:9659469/4" value="JST-04TOP" x="9" y="31" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.46" y="31" size="1.27" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="12.54" y="31" size="1.27" layer="25" rot="R90" align="top-center"/>
 </element>
 <element name="CON2" library="con-molex-dynamixel" library_urn="urn:adsk.eagle:library:16504158" package="5267-03A" package3d_urn="urn:adsk.eagle:package:16503608/4" value="AX12" x="2.1" y="89" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Molex" x="2.1" y="89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.56" y="84.92" size="1.778" layer="25" rot="R90"/>
 <attribute name="REF" value="5267-03A" x="2.1" y="89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="REF-STD" value="22-03-5035" x="2.1" y="89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="REF-SW" value="99-99-0987" x="2.1" y="89" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TOF_AV" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="BM03B-GHS" package3d_urn="urn:adsk.eagle:package:9659470/4" value="JST-03TOP" x="86" y="77" smashed="yes" rot="R90">
-<attribute name="NAME" x="88.54" y="77" size="1.27" layer="25" rot="R90" align="top-center"/>
+<attribute name="NAME" x="86" y="81.34" size="1.27" layer="25" rot="R180" align="top-center"/>
 </element>
 <element name="TOF_AR" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="SM03B-GHS" package3d_urn="urn:adsk.eagle:package:9659460/3" value="JST-03SIDE" x="3.1" y="72" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.56" y="72" size="1.27" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="6.24" y="72.5" size="1.27" layer="25" rot="R90" align="top-center"/>
 </element>
 <element name="DISPLAY" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="BM04B-GHS" package3d_urn="urn:adsk.eagle:package:9659469/4" value="JST-04TOP" x="96" y="77" smashed="yes" rot="R270">
-<attribute name="NAME" x="93.46" y="77" size="1.27" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="96.34" y="77" size="1.27" layer="25" rot="R90" align="top-center"/>
 </element>
 <element name="TOF_ARD" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="BM03B-GHS" package3d_urn="urn:adsk.eagle:package:9659470/4" value="JST-03TOP" x="9" y="22" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.46" y="22" size="1.27" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="12.54" y="22" size="1.27" layer="25" rot="R90" align="top-center"/>
 </element>
 <element name="JUMPER" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="SM02B-GHS" package3d_urn="urn:adsk.eagle:package:9659459/3" value="JST-02SIDE" x="3.1" y="80" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.56" y="80" size="1.27" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="6.24" y="80.6" size="1.27" layer="25" rot="R90" align="top-center"/>
 </element>
 <element name="FLAG" library="con-molex-dynamixel" library_urn="urn:adsk.eagle:library:16504158" package="53253-0470" package3d_urn="urn:adsk.eagle:package:16655897/3" value="GENERIC-4PIN53253" x="62" y="94" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Molex" x="62" y="94" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="64.032" y="98.064" size="1.778" layer="25" rot="R270"/>
+<attribute name="NAME" x="59.568" y="90.836" size="1.778" layer="25" rot="R90"/>
 <attribute name="REF" value="53253-0470" x="62" y="94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="79.9" y="62.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="78.63" y="63.77" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="80.53" y="60.67" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="82.44" y="63.77" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="77.9" y="62.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="76.63" y="63.135" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="78.43" y="60.735" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="80.44" y="63.135" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="75.9" y="62.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="74.63" y="63.135" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="75.135" y="60.97" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="78.44" y="63.135" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="LEDS" library="con-jst-gh" library_urn="urn:adsk.eagle:library:16486807" package="SM05B-GHS" package3d_urn="urn:adsk.eagle:package:9659461/3" value="JST-05SIDE" x="3.1" y="62" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.56" y="62" size="1.27" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="3.26" y="62" size="1.27" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="SW1" library="switch-rs-pro" library_urn="urn:adsk.eagle:library:16670594" package="SWITCH_SPDT_H" package3d_urn="urn:adsk.eagle:package:16670605/5" value="SWITCH-SPDT-H" x="14.4" y="90.2" smashed="yes" rot="R7.5">
 <attribute name="NAME" x="13.699065625" y="95.524053125" size="1.27" layer="25" rot="R187.5" align="center"/>
@@ -2653,53 +2570,48 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="91" y="27.8" locked="yes" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="VUSB" x="97" y="83" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.6162" y="81.1712" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="98" x="97" y="83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="99.54" y="86.175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="SS56B" x="91" y="76" smashed="yes" rot="R90">
-<attribute name="NAME" x="88.841" y="73.841" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="89.841" y="79.659" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="91" y="76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS" value="917-9221" x="91" y="76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="94.429" y="73.841" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SW2" library="push-button" library_urn="urn:adsk.eagle:library:16671109" package="436331045822" package3d_urn="urn:adsk.eagle:package:16671140/2" value="PUSH-BUTTON436331045822" x="25.8" y="97" smashed="yes" rot="R5.5">
 <attribute name="MANUFACTURER" value="Wurth Elektronik" x="25.8" y="97" size="1.778" layer="27" rot="R5.5" display="off"/>
-<attribute name="NAME" x="25.9916875" y="95.009203125" size="1.778" layer="25" rot="R5.5" align="top-center"/>
 <attribute name="REF" value=" 436331045822" x="25.8" y="97" size="1.778" layer="27" rot="R5.5" display="off"/>
 <attribute name="VALUE" x="25.512459375" y="99.986184375" size="1.778" layer="27" rot="R185.5" align="top-center"/>
 </element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="26.1" y="94" smashed="yes" rot="R5.5">
-<attribute name="NAME" x="24.714121875" y="95.142428125" size="1.27" layer="25" rot="R5.5"/>
 <attribute name="POPULARITY" value="20" x="26.1" y="94" size="1.778" layer="27" rot="R5.5" display="off"/>
 <attribute name="VALUE" x="25.07929375" y="91.34996875" size="1.27" layer="27" rot="R5.5"/>
 </element>
 <element name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="98.5" y="92.8" smashed="yes" rot="MR90">
-<attribute name="NAME" x="99.77" y="91.53" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="20" x="98.5" y="92.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="95.96" y="91.53" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="98.5" y="88.1" smashed="yes" rot="MR270">
-<attribute name="NAME" x="97.23" y="89.37" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="20" x="98.5" y="88.1" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="101.04" y="89.37" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="S1:Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="BSS138" x="74.6" y="46.7" smashed="yes" rot="MR180">
-<attribute name="NAME" x="72.695" y="44.795" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="72.295" y="44.595" size="1.27" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="21" x="74.6" y="46.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="RS" value="669-7559" x="74.6" y="46.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="72.695" y="49.875" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="S1:R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="77.2" y="46.7" smashed="yes" rot="MR90">
-<attribute name="NAME" x="78.47" y="46.065" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="78.37" y="44.665" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="74.66" y="46.065" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="S1:R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="72" y="46.7" smashed="yes" rot="MR270">
-<attribute name="NAME" x="70.73" y="47.335" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="71.03" y="49.135" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="74.54" y="47.335" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="HB1:U2" library="h-bridge" library_urn="urn:adsk.eagle:library:16487537" package="SOIC127P600X175-16M" package3d_urn="urn:adsk.eagle:package:16487541/1" value="VNH7100AS" x="28" y="58" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.1536" y="58" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="33.8536" y="58" size="1.27" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="22.2864" y="58" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
 <element name="HB1:R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="61.9" y="62.1" smashed="yes" rot="MR0">
@@ -2719,117 +2631,113 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="62.535" y="53.56" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="HB1:R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="69.3" y="57.1" smashed="yes" rot="MR270">
-<attribute name="NAME" x="68.03" y="57.735" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="68.67" y="58.865" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="71.84" y="57.735" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="HB1:R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="67.3" y="57.1" smashed="yes" rot="MR270">
-<attribute name="NAME" x="66.03" y="57.735" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="66.67" y="58.865" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="69.84" y="57.735" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="HB1:C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF" x="71.3" y="57.1" smashed="yes" rot="MR90">
-<attribute name="NAME" x="72.57" y="55.83" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="70.67" y="58.83" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="68.76" y="55.83" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="HB1:C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="28.3" y="53" smashed="yes">
-<attribute name="NAME" x="27.03" y="54.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="30.33" y="52.47" size="1.27" layer="25"/>
 <attribute name="VALUE" x="27.03" y="50.46" size="1.27" layer="27"/>
 </element>
 <element name="HB1:C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="220µF" x="26" y="66" smashed="yes">
-<attribute name="NAME" x="29.302" y="68.794" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="23.102" y="69.594" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="23.714" y="62.952" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="HB1:R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="73.3" y="57.1" smashed="yes" rot="MR90">
-<attribute name="NAME" x="74.57" y="56.465" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="73.935" y="54.07" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="70.76" y="56.465" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="HB1:R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15k" x="75.3" y="57.1" smashed="yes" rot="MR270">
-<attribute name="NAME" x="74.03" y="57.735" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="74.365" y="55.33" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="77.84" y="57.735" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="HB2:C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF" x="78.8" y="84" smashed="yes" rot="MR0">
-<attribute name="NAME" x="80.07" y="85.27" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="80.53" y="84.63" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="97.07" y="134.46" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="HB2:C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="74.7" y="92" smashed="yes" rot="MR180">
-<attribute name="NAME" x="73.43" y="90.73" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="73.13" y="94.53" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="73.43" y="94.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="HB2:C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="220µF" x="60" y="85.5" smashed="yes">
-<attribute name="NAME" x="63.302" y="88.294" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="64.002" y="84.894" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="57.714" y="82.452" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="HB2:R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="78.8" y="92" smashed="yes" rot="MR180">
-<attribute name="NAME" x="78.165" y="90.73" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="80.565" y="92.63" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="78.165" y="94.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="HB2:R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15k" x="78.8" y="80" smashed="yes" rot="MR180">
-<attribute name="NAME" x="78.165" y="78.73" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="80.565" y="80.63" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="78.165" y="82.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="HB2:R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="74.4" y="84.3" smashed="yes" rot="MR90">
-<attribute name="NAME" x="75.67" y="83.665" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="75.47" y="82.565" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="71.86" y="83.665" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="HB2:R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="72.3" y="84.3" smashed="yes" rot="MR90">
-<attribute name="NAME" x="73.57" y="83.665" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="70.07" y="80.865" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="69.76" y="83.665" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="HB2:R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="78.8" y="90" smashed="yes" rot="MR180">
-<attribute name="NAME" x="78.165" y="88.73" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="80.565" y="90.63" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="78.165" y="92.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="HB2:R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="78.8" y="86" smashed="yes" rot="MR180">
-<attribute name="NAME" x="78.165" y="84.73" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="80.565" y="86.63" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="78.165" y="88.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="HB2:R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="78.8" y="88" smashed="yes" rot="MR180">
-<attribute name="NAME" x="78.165" y="86.73" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="80.565" y="88.63" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="78.165" y="90.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="HB2:R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="78.8" y="82" smashed="yes" rot="MR0">
-<attribute name="NAME" x="79.435" y="83.27" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="80.565" y="82.63" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="79.435" y="79.46" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="HB2:U2" library="h-bridge" library_urn="urn:adsk.eagle:library:16487537" package="SOIC127P600X175-16M" package3d_urn="urn:adsk.eagle:package:16487541/1" value="VNH7100AS" x="69" y="92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="69" y="98.1536" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="65.0464" y="92" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="93" y="109.2864" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="67.7" y="83" smashed="yes" rot="MR90">
-<attribute name="NAME" x="68.97" y="82.365" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="67.07" y="84.665" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="65.16" y="82.365" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="65.6" y="83" smashed="yes" rot="MR90">
-<attribute name="NAME" x="66.87" y="82.365" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="64.97" y="84.665" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="63.06" y="82.365" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="JMP1" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" package="A0R-JMP" package3d_urn="urn:adsk.eagle:package:15385/1" value="0R-JUMPA" x="33" y="75" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.716" y="75.762" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="3" x="33" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.014" y="75.762" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="DC1" library="traco-power" library_urn="urn:adsk.eagle:library:16504331" package="TSR1" package3d_urn="urn:adsk.eagle:package:16504336/3" value="TSR 1-2450" x="51" y="76" smashed="yes">
 <attribute name="MANUFACTURER" value="TRACO POWER" x="37" y="90" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45" y="82" size="1.778" layer="25"/>
+<attribute name="NAME" x="44.8" y="74.2" size="1.778" layer="25" rot="R90"/>
 <attribute name="OUTPUT_VOLTAGE" value="5" x="37" y="90" size="1.778" layer="27" display="off"/>
 <attribute name="REF" value="TSR 1-2450" x="37" y="90" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="666-4379" x="37" y="90" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22µF" x="50" y="78" smashed="yes" rot="MR180">
-<attribute name="NAME" x="48.095" y="76.095" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="50.905" y="79.105" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="48.095" y="81.175" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="PANASONIC_D" package3d_urn="urn:adsk.eagle:package:23424/2" value="220µF" x="60.5" y="78" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.294" y="74.698" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="64.002" y="77.694" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="57.452" y="80.286" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="F2" library="polyswitch" package="MF-LSMF300" value="MF-LSMF300" x="33" y="69" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.8522" y="64.3664" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="35.9478" y="67.0336" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="37.9258" y="64.3664" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RTC1" library="rtc-raspberry-pi" library_urn="urn:adsk.eagle:library:16676007" package="RTC" package3d_urn="urn:adsk.eagle:package:16676011/2" value="RTC" x="14" y="55" smashed="yes" rot="R180">
-<attribute name="NAME" x="21" y="54.6" size="1.778" layer="21" rot="R180"/>
-<attribute name="VALUE" x="7" y="69.4" size="1.778" layer="21"/>
-</element>
+<element name="RTC1" library="rtc-raspberry-pi" library_urn="urn:adsk.eagle:library:16676007" package="RTC" package3d_urn="urn:adsk.eagle:package:16676011/2" value="RTC" x="14" y="55" smashed="yes" rot="R180"/>
 <element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470" x="26" y="94" smashed="yes" rot="MR180">
 <attribute name="NAME" x="25.365" y="92.73" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="25.365" y="96.54" size="1.27" layer="28" rot="MR180"/>
@@ -2839,17 +2747,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.34" y="52.635" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="SW3" library="push-button" library_urn="urn:adsk.eagle:library:16671109" package="PUSH-BUTTON" package3d_urn="urn:adsk.eagle:package:16671112/2" value="PUSH-BUTTON" x="30" y="89" smashed="yes" rot="R90">
-<attribute name="NAME" x="30" y="86" size="1.778" layer="25" align="top-center"/>
 <attribute name="RS" value="479-1491" x="30" y="89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="27" y="89" size="1.778" layer="27" rot="R270" align="top-center"/>
 </element>
 <element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="24" y="89" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.27" y="87.73" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="20" x="46" y="89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="25.27" y="91.54" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470" x="35" y="89" smashed="yes">
-<attribute name="NAME" x="34.365" y="90.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="35.565" y="89.97" size="1.27" layer="25"/>
 <attribute name="VALUE" x="34.365" y="86.46" size="1.27" layer="27"/>
 </element>
 <element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="14" y="52" smashed="yes" rot="MR270">
@@ -2857,31 +2763,27 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.54" y="52.635" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="SW4" library="push-button" library_urn="urn:adsk.eagle:library:16671109" package="PUSH-BUTTON" package3d_urn="urn:adsk.eagle:package:16671112/2" value="PUSH-BUTTON" x="44" y="89" smashed="yes" rot="R90">
-<attribute name="NAME" x="44" y="86" size="1.778" layer="25" align="top-center"/>
 <attribute name="RS" value="479-1491" x="44" y="89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="41" y="89" size="1.778" layer="27" rot="R270" align="top-center"/>
 </element>
 <element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="50" y="89" smashed="yes">
-<attribute name="NAME" x="48.73" y="90.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="20" x="26" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="48.73" y="86.46" size="1.27" layer="27"/>
 </element>
 <element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470" x="39" y="89" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.635" y="87.73" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.435" y="88.13" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="39.635" y="91.54" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="19" y="52" smashed="yes" rot="MR270">
-<attribute name="NAME" x="17.73" y="52.635" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="20.435" y="53.87" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="21.54" y="52.635" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="SW5" library="push-button" library_urn="urn:adsk.eagle:library:16671109" package="436331045822" package3d_urn="urn:adsk.eagle:package:16671140/2" value="PUSH-BUTTON436331045822" x="33.2" y="97.5" smashed="yes" rot="R3.5">
 <attribute name="MANUFACTURER" value="Wurth Elektronik" x="20.22424375" y="96.70636875" size="1.778" layer="27" rot="R3.5" display="off"/>
-<attribute name="NAME" x="33.32209375" y="95.503728125" size="1.778" layer="25" rot="R3.5" align="top-center"/>
 <attribute name="REF" value=" 436331045822" x="20.22424375" y="96.70636875" size="1.778" layer="27" rot="R3.5" display="off"/>
 <attribute name="VALUE" x="33.01685" y="100.4944" size="1.778" layer="27" rot="R183.5" align="top-center"/>
 </element>
 <element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="33.4" y="94.5" smashed="yes" rot="R3.5">
-<attribute name="NAME" x="32.054834375" y="95.690096875" size="1.27" layer="25" rot="R3.5"/>
 <attribute name="POPULARITY" value="20" x="9.4447625" y="93.034834375" size="1.778" layer="27" rot="R3.5" display="off"/>
 <attribute name="VALUE" x="32.28743125" y="91.887203125" size="1.27" layer="27" rot="R3.5"/>
 </element>
@@ -2894,69 +2796,67 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="44.635" y="48.46" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="S2:Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="BSS138" x="90.1" y="11.3" smashed="yes" rot="MR90">
-<attribute name="NAME" x="92.005" y="9.395" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="91.995" y="11.995" size="1.27" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="21" x="90.1" y="11.3" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RS" value="669-7559" x="90.1" y="11.3" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="86.925" y="9.395" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="S2:R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="90.1" y="13.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="90.735" y="15.17" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="91.865" y="14.53" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="90.735" y="11.36" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="S2:R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="90.1" y="8.7" smashed="yes" rot="MR180">
-<attribute name="NAME" x="89.465" y="7.43" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="91.865" y="9.33" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="89.465" y="11.24" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="S3:Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="BSS138" x="69.4" y="77.3" smashed="yes" rot="MR270">
-<attribute name="NAME" x="67.495" y="79.205" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="67.505" y="76.605" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="21" x="69.4" y="77.3" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS" value="669-7559" x="69.4" y="77.3" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="72.575" y="79.205" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="S3:R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="69.4" y="74.7" smashed="yes" rot="MR180">
-<attribute name="NAME" x="68.765" y="73.43" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="67.535" y="74.27" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="68.765" y="77.24" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="S3:R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="69.4" y="79.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="70.035" y="81.17" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="67.635" y="79.27" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="70.035" y="77.36" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="S4:Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="BSS138" x="73.6" y="75.9" smashed="yes" rot="MR270">
-<attribute name="NAME" x="71.695" y="77.805" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="75.495" y="76.395" size="1.27" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="21" x="73.6" y="75.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS" value="669-7559" x="73.6" y="75.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="76.775" y="77.805" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="S4:R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="73.6" y="73.3" smashed="yes" rot="MR180">
-<attribute name="NAME" x="72.965" y="72.03" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="71.835" y="72.07" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="72.965" y="75.84" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="S4:R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="73.6" y="78.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="74.235" y="80.17" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="71.665" y="81.13" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="74.235" y="76.36" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="S5:Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="BSS138" x="77.9" y="66.8" smashed="yes" rot="MR180">
-<attribute name="NAME" x="75.995" y="64.895" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="79.305" y="69.005" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="21" x="77.9" y="66.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="RS" value="669-7559" x="77.9" y="66.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="75.995" y="69.975" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="S5:R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="80.5" y="66.8" smashed="yes" rot="MR90">
-<attribute name="NAME" x="81.77" y="66.165" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="79.87" y="68.665" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="77.96" y="66.165" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="S5:R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="75.3" y="66.8" smashed="yes" rot="MR270">
-<attribute name="NAME" x="74.03" y="67.435" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="74.435" y="67.17" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="77.84" y="67.435" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="SW6" library="push-button" library_urn="urn:adsk.eagle:library:16671109" package="436331045822" package3d_urn="urn:adsk.eagle:package:16671140/2" value="PUSH-BUTTON436331045822" x="40.5" y="97.9" smashed="yes" rot="R2">
 <attribute name="MANUFACTURER" value="Wurth Elektronik" x="27.50791875" y="97.44630625" size="1.778" layer="27" rot="R2" display="off"/>
-<attribute name="NAME" x="40.569796875" y="95.901215625" size="1.778" layer="25" rot="R2" align="top-center"/>
 <attribute name="REF" value=" 436331045822" x="27.50791875" y="97.44630625" size="1.778" layer="27" rot="R2" display="off"/>
 <attribute name="VALUE" x="40.3953" y="100.898171875" size="1.778" layer="27" rot="R182" align="top-center"/>
 </element>
 <element name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="40.6" y="94.9" smashed="yes" rot="R2">
-<attribute name="NAME" x="39.28645" y="96.124903125" size="1.27" layer="25" rot="R2"/>
 <attribute name="POPULARITY" value="20" x="16.61461875" y="94.062409375" size="1.778" layer="27" rot="R2" display="off"/>
 <attribute name="VALUE" x="39.419415625" y="92.317221875" size="1.27" layer="27" rot="R2"/>
 </element>
@@ -2965,17 +2865,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.365" y="96.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="87.4" y="31.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="86.13" y="31.165" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="86.97" y="30.135" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="89.94" y="31.165" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SW7" library="push-button" library_urn="urn:adsk.eagle:library:16671109" package="436331045822" package3d_urn="urn:adsk.eagle:package:16671140/2" value="PUSH-BUTTON436331045822" x="47.7" y="98" smashed="yes">
 <attribute name="MANUFACTURER" value="Wurth Elektronik" x="34.7" y="98" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="47.7" y="96" size="1.778" layer="25" align="top-center"/>
 <attribute name="REF" value=" 436331045822" x="34.7" y="98" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="47.7" y="101" size="1.778" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="47.7" y="95" smashed="yes">
-<attribute name="NAME" x="46.43" y="96.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="20" x="23.7" y="95" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.43" y="92.46" size="1.27" layer="27"/>
 </element>
@@ -2984,31 +2882,31 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="46.365" y="96.54" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="85.4" y="31.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="84.13" y="31.165" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="84.87" y="30.135" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="87.94" y="31.165" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470" x="94.3" y="88.3" smashed="yes" rot="MR270">
-<attribute name="NAME" x="93.03" y="88.935" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="93.67" y="90.065" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="96.84" y="88.935" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470" x="96.4" y="88.3" smashed="yes" rot="MR270">
-<attribute name="NAME" x="95.13" y="88.935" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="95.77" y="90.065" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="98.94" y="88.935" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF" x="8" y="16" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.27" y="14.73" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="5.87" y="16.63" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="9.27" y="18.54" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF" x="13.1" y="42.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="14.37" y="43.87" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="14.37" y="43.67" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="14.37" y="40.06" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF" x="5.5" y="87.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="4.23" y="88.77" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="6.57" y="86.83" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="8.04" y="88.77" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF" x="83" y="8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="84.27" y="9.27" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="81.43" y="10.23" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="84.27" y="5.46" size="1.27" layer="28" rot="MR0"/>
 </element>
 </elements>
@@ -3181,7 +3079,7 @@ design rules under a new name.</description>
 <via x="68.1" y="87.5" extent="1-16" drill="0.35" shape="octagon"/>
 <via x="69.9" y="87.5" extent="1-16" drill="0.35" shape="octagon"/>
 <via x="74.6" y="90.6" extent="1-16" drill="0.35" shape="octagon"/>
-<via x="81.1" y="82.3" extent="1-16" drill="0.35" shape="octagon"/>
+<via x="81.4" y="82.3" extent="1-16" drill="0.35" shape="octagon"/>
 <via x="81.1" y="78.3" extent="1-16" drill="0.35" shape="octagon"/>
 <via x="12.6" y="27.1" extent="1-16" drill="0.35" shape="octagon"/>
 <via x="9" y="31" extent="1-16" drill="0.35" shape="octagon"/>
